@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Pro | Spicaliski Holsters - Coldres Táticos Premium</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loader Animado -->
+    <div class="loader">
+        <div class="loader-inner">
+            <div class="loader-circle"></div>
+            <div class="loader-circle"></div>
+            <div class="loader-circle"></div>
+            <div class="loader-circle"></div>
+            <div class="loader-circle"></div>
+        </div>
+        <p>CARREGANDO A EXPERIÊNCIA SPICALISKI</p>
+    </div>
+
+    <!-- Menu de Navegação -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="pagina_inicial.html" class="logo">SPICALISKI<span>HOLSTERS</span></a>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="pagina_inicial.html">INÍCIO</a></li>
+                <li><a href="produtos.html">PRODUTOS</a></li>
+                <li><a href="sobre.html">SOBRE</a></li>
+                <li><a href="galeria.html">GALERIA</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+                <li>
+                    <a href="#" class="icon-link"><i class="fas fa-user"></i></a>
+                    <a href="#" class="icon-link"><i class="fas fa-shopping-cart"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <main class="product-page">
+        <div class="container">
+            <!-- Caminho de Navegação -->
+            <div class="breadcrumb">
+                <a href="pagina_inicial.html">Início</a>
+                <i class="fas fa-chevron-right"></i>
+                <a href="produtos.html">Produtos</a>
+                <i class="fas fa-chevron-right"></i>
+                <a href="produtos.html?category=tactical">Táticos</a>
+                <i class="fas fa-chevron-right"></i>
+                <span>Elite Pro</span>
+            </div>
+
+            <div class="product-container">
+                <!-- Galeria de Imagens do Produto -->
+                <div class="product-gallery">
+                    <div class="main-image">
+                        <img src="https://i.ibb.co/pvq7SMjn/Design-sem-nome-4.png" alt="Coldre Spicaliski Elite Pro" id="zoomImage">
+                        <div class="product-badge">NOVO</div>
+                        <div class="image-zoom" id="imageZoom"></div>
+                    </div>
+                    <div class="thumbnail-images">
+                        <div class="thumbnail active">
+                            <img src="https://i.ibb.co/pvq7SMjn/Design-sem-nome-4.png" alt="Miniatura 1">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="https://i.ibb.co/pvq7SMjn/Design-sem-nome-4.png" alt="Miniatura 2">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="https://i.ibb.co/pvq7SMjn/Design-sem-nome-4.png" alt="Miniatura 3">
+                        </div>
+                        <div class="thumbnail">
+                            <img src="https://i.ibb.co/pvq7SMjn/Design-sem-nome-4.png" alt="Miniatura 4">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Informações do Produto -->
+                <div class="product-details">
+                    <h1>SPICALISKI ELITE PRO</h1>
+                    <div class="product-meta">
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <a href="#reviews" class="review-link">24 avaliações</a>
+                            <span class="separator">|</span>
+                            <span class="sku">Código: SPK-ELT-PRO-2023</span>
+                        </div>
+                    </div>
+
+                    <div class="product-price">
+                        <span class="current-price">R$ 499,90</span>
+                        <span class="old-price">R$ 599,90</span>
+                        <span class="discount-badge">16% OFF</span>
+                    </div>
+
+                    <div class="product-description">
+                        <p>O coldre Spicaliski Elite Pro redefine o padrão de qualidade com materiais de grau militar, ajuste perfeito e retenção ativa de nível profissional. Projetado para operações táticas exigentes.</p>
+                    </div>
+
+                    <div class="product-features">
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Proteção Balística Opcional</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-tint"></i>
+                            <span>Resistente à Água e Óleo</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-weight-hanging"></i>
+                            <span>Leve e Durável</span>
+                        </div>
+                    </div>
+
+                    <form class="product-options">
+                        <!-- Opção de Cor -->
+                        <div class="option-group">
+                            <label>COR</label>
+                            <div class="color-options">
+                                <input type="radio" id="color-black" name="color" value="black" checked>
+                                <label for="color-black" class="color-option black" data-tooltip="Preto Tático"></label>
+                                
+                                <input type="radio" id="color-coyote" name="color" value="coyote">
+                                <label for="color-coyote" class="color-option coyote" data-tooltip="Coyote"></label>
+                                
+                                <input type="radio" id="color-odgreen" name="color" value="odgreen">
+                                <label for="color-odgreen" class="color-option odgreen" data-tooltip="Verde OD"></label>
+                                
+                                <input type="radio" id="color-ranger" name="color" value="ranger">
+                                <label for="color-ranger" class="color-option ranger" data-tooltip="Ranger Green"></label>
+                            </div>
+                        </div>
+
+                        <!-- Opção de Tamanho -->
+                        <div class="option-group">
+                            <label for="size">TAMANHO</label>
+                            <select id="size" name="size" required>
+                                <option value="" disabled selected>Selecione o tamanho</option>
+                                <option value="compact">Compacto (Para pistolas subcompactas)</option>
+                                <option value="medium">Médio (Para pistolas compactas)</option>
+                                <option value="full">Padrão (Para pistolas de tamanho normal)</option>
+                                <option value="xfull">XL (Para pistolas full-size com acessórios)</option>
+                            </select>
+                        </div>
+
+                        <!-- Opção de Montagem -->
+                        <div class="option-group">
+                            <label>MONTAGEM</label>
+                            <div class="mount-options">
+                                <input type="radio" id="mount-owb" name="mount" value="owb" checked>
+                                <label for="mount-owb">OWB (Fora da Cintura)</label>
+                                
+                                <input type="radio" id="mount-iwb" name="mount" value="iwb">
+                                <label for="mount-iwb">IWB (Dentro da Cintura)</label>
+                                
+                                <input type="radio" id="mount-drop" name="mount" value="drop">
+                                <label for="mount-drop">Drop Leg (Perna)</label>
+                            </div>
+                        </div>
+
+                        <!-- Quantidade -->
+                        <div class="option-group">
+                            <label for="quantity">QUANTIDADE</label>
+                            <div class="quantity-selector">
+                                <button type="button" class="quantity-minus"><i class="fas fa-minus"></i></button>
+                                <input type="number" id="quantity" name="quantity" value="1" min="1" max="10">
+                                <button type="button" class="quantity-plus"><i class="fas fa-plus"></i></button>
+                            </div>
+                        </div>
+            		<!-- Botão Comprar Agora (fixo na parte inferior em mobile) -->
+            		<div class="buy-now-fixed">
+               			<button class="buy-now">COMPRAR AGORA</button>
+           		</div>
+
+                        <!-- Ações -->
+                        <div class="product-actions">
+                            <button type="submit" class="add-to-cart">ADICIONAR AO CARRINHO</button>
+                        </div>
+
+                        <!-- Garantia -->
+                        <div class="product-warranty">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Garantia vitalícia contra defeitos de fabricação</span>
+                        </div>
+                    </form>
+
+                    <!-- Entrega e Pagamento -->
+                    <div class="delivery-payment">
+                        <div class="delivery-option">
+                            <i class="fas fa-truck"></i>
+                            <div>
+                                <h4>ENTREGA RÁPIDA</h4>
+                                <p>Receba em 3-5 dias úteis para grandes centros</p>
+                            </div>
+                        </div>
+                        <div class="payment-option">
+                            <i class="fas fa-credit-card"></i>
+                            <div>
+                                <h4>PAGAMENTO SEGURO</h4>
+                                <p>Parcele em até 12x no cartão ou 5% de desconto no PIX</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Abas de Informações -->
+            <div class="product-tabs">
+                <ul class="tab-headers">
+                    <li class="active" data-tab="description">DESCRIÇÃO</li>
+                    <li data-tab="specs">ESPECIFICAÇÕES</li>
+                    <li data-tab="reviews">AVALIAÇÕES</li>
+                    <li data-tab="shipping">ENTREGA</li>
+                </ul>
+
+                <div class="tab-content active" id="description">
+                    <h3>O MAIS AVANÇADO COLDRES TÁTICO</h3>
+                    <p>O Elite Pro representa o ápice da engenharia de coldres táticos, desenvolvido em colaboração com operadores de unidades especiais. Cada detalhe foi meticulosamente projetado para oferecer desempenho inigualável em situações críticas.</p>
+                    
+                    <h4>CARACTERÍSTICAS PRINCIPAIS:</h4>
+                    <ul>
+                        <li><strong>Sistema QuantumLock™:</strong> Retenção ativa que mantém sua arma segura até o momento exato do uso.</li>
+                        <li><strong>Material HybridX:</strong> Combinação patenteada de polímero balístico e fibra de carbono para máxima durabilidade.</li>
+                        <li><strong>Ajuste Dinâmico:</strong> Parafusos de tensão permitem ajuste micrométrico para encaixe perfeito.</li>
+                        <li><strong>Design Modular:</strong> Compatível com diversos sistemas de montagem (OWB, IWB, Drop Leg).</li>
+                        <li><strong>Revestimento NanoGrip:</strong> Superfície texturizada que aumenta a aderência mesmo com luvas.</li>
+                    </ul>
+                    
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="specs">
+                    <table class="specs-table">
+                        <tr>
+                            <th>Material Primário</th>
+                            <td>HybridX (Polímero balístico + Fibra de carbono)</td>
+                        </tr>
+                        <tr>
+                            <th>Peso</th>
+                            <td>180g (modelo padrão)</td>
+                        </tr>
+                        <tr>
+                            <th>Dimensões</th>
+                            <td>Varia conforme o modelo (Consulte guia de tamanhos)</td>
+                        </tr>
+                        <tr>
+                            <th>Cores Disponíveis</th>
+                            <td>Preto Tático, Coyote, Verde OD, Ranger Green</td>
+                        </tr>
+                        <tr>
+                            <th>Retenção</th>
+                            <td>Nível 2 ajustável (QuantumLock™)</td>
+                        </tr>
+                        <tr>
+                            <th>Compatibilidade</th>
+                            <td>Mais de 50 modelos de pistolas (Consulte lista completa)</td>
+                        </tr>
+                        <tr>
+                            <th>Resistência</th>
+                            <td>À prova d'água, resistente a óleos e temperaturas extremas (-30°C a 80°C)</td>
+                        </tr>
+                        <tr>
+                            <th>Garantia</th>
+                            <td>Vitalícia contra defeitos de fabricação</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="tab-content" id="reviews">
+                    <div class="reviews-summary">
+                        <div class="average-rating">
+                            <div class="rating-number">4.7</div>
+                            <div class="rating-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="rating-count">Baseado em 24 avaliações</div>
+                        </div>
+                        <div class="rating-bars">
+                            <div class="rating-bar">
+                                <span>5 estrelas</span>
+                                <div class="bar-container">
+                                    <div class="bar" style="width: 75%"></div>
+                                </div>
+                                <span>18</span>
+                            </div>
+                            <div class="rating-bar">
+                                <span>4 estrelas</span>
+                                <div class="bar-container">
+                                    <div class="bar" style="width: 20%"></div>
+                                </div>
+                                <span>5</span>
+                            </div>
+                            <div class="rating-bar">
+                                <span>3 estrelas</span>
+                                <div class="bar-container">
+                                    <div class="bar" style="width: 4%"></div>
+                                </div>
+                                <span>1</span>
+                            </div>
+                            <div class="rating-bar">
+                                <span>2 estrelas</span>
+                                <div class="bar-container">
+                                    <div class="bar" style="width: 0%"></div>
+                                </div>
+                                <span>0</span>
+                            </div>
+                            <div class="rating-bar">
+                                <span>1 estrela</span>
+                                <div class="bar-container">
+                                    <div class="bar" style="width: 0%"></div>
+                                </div>
+                                <span>0</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="write-review">ESCREVER AVALIAÇÃO</button>
+
+                    <div class="review-list">
+                        <div class="review">
+                            <div class="review-header">
+                                <div class="review-author">Carlos M.</div>
+                                <div class="review-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="review-date">15/03/2023</div>
+                            </div>
+                            <div class="review-title">Produto excelente!</div>
+                            <div class="review-content">
+                                <p>Uso profissionalmente em operações táticas e o Elite Pro superou todas minhas expectativas. O sistema de retenção é perfeito - seguro quando preciso e rápido quando necessário. Já passou por selva, água salgada e areia sem nenhum problema.</p>
+                            </div>
+                        </div>
+
+                        <div class="review">
+                            <div class="review-header">
+                                <div class="review-author">Ana P.</div>
+                                <div class="review-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="review-date">02/03/2023</div>
+                            </div>
+                            <div class="review-title">Melhor coldre que já tive</div>
+                            <div class="review-content">
+                                <p>Comprei para uso diário no serviço e a diferença para coldres comuns é absurda. O ajuste perfeito para minha Glock 19, material super resistente e o mais importante: conforto mesmo usando o dia todo. Vale cada centavo!</p>
+                            </div>
+                        </div>
+
+                        <div class="review">
+                            <div class="review-header">
+                                <div class="review-author">Ricardo F.</div>
+                                <div class="review-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="review-date">22/02/2023</div>
+                            </div>
+                            <div class="review-title">Muito bom, mas com ressalvas</div>
+                            <div class="review-content">
+                                <p>Coldre excelente em geral, mas o sistema de ajuste poderia ser mais intuitivo. Demorei um pouco para acertar a tensão ideal. Depois de ajustado, porém, funcionou perfeitamente nos treinos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="shipping">
+                    <h3>POLÍTICA DE ENTREGA</h3>
+                    <p>Enviamos para todo o Brasil com frete calculado no checkout. Pedidos acima de R$ 500,00 têm frete grátis.</p>
+                    
+                    <h4>PRAZOS ESTIMADOS:</h4>
+                    <ul>
+                        <li><strong>Capitais e Regiões Metropolitanas:</strong> 3-5 dias úteis</li>
+                        <li><strong>Demais Localidades:</strong> 5-10 dias úteis</li>
+                        <li><strong>Áreas Remotas:</strong> 10-15 dias úteis</li>
+                    </ul>
+                    
+                    <h4>MÉTODOS DE ENVIO:</h4>
+                    <div class="shipping-methods">
+                        <div class="shipping-method">
+                            <i class="fas fa-truck"></i>
+                            <div>
+                                <h5>Correios (PAC)</h5>
+                                <p>Econômico com rastreamento</p>
+                            </div>
+                        </div>
+                        <div class="shipping-method">
+                            <i class="fas fa-shipping-fast"></i>
+                            <div>
+                                <h5>Correios (SEDEX)</h5>
+                                <p>Entrega rápida com rastreamento</p>
+                            </div>
+                        </div>
+                        <div class="shipping-method">
+                            <i class="fas fa-motorcycle"></i>
+                            <div>
+                                <h5>Entregador Local (SP)</h5>
+                                <p>Entrega no mesmo dia para Grande SP</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produtos Relacionados -->
+            <section class="related-products">
+                <div class="section-header">
+                    <h2>PRODUTOS <span>RELACIONADOS</span></h2>
+                    <p>Quem comprou este produto também se interessou por:</p>
+                </div>
+                
+                <div class="products-grid">
+                    <a href="produto.html" class="product-card">
+                        <div class="product-badge">MAIS VENDIDO</div>
+                        <div class="product-image">
+                            <img src="https://i.ibb.co/pvq7SMjn/Design-sem-nome-4.png" alt="Coldre Spicaliski Urban Carry">
+                        </div>
+                        <div class="product-info">
+                            <h3>URBAN CARRY</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="product-price">
+                                <span class="price">R$ 429,90</span>
+                            </div>
+                            <button class="add-to-cart">VER DETALHES</button>
+                        </div>
+                    </a>
+                    
+                    <a href="produto.html" class="product-card">
+                        <div class="product-image">
+                            <img src="https://i.ibb.co/pvq7SMjn/Design-sem-nome-4.png" alt="Coldre Spicaliski Stealth Ops">
+                        </div>
+                        <div class="product-info">
+                            <h3>STEALTH OPS</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="product-price">
+                                <span class="price">R$ 479,90</span>
+                                <span class="old-price">R$ 529,90</span>
+                            </div>
+                            <button class="add-to-cart">VER DETALHES</button>
+                        </div>
+                    </a>
+                    
+                    <a href="produto.html" class="product-card">
+                        <div class="product-badge">LANÇAMENTO</div>
+                        <div class="product-image">
+                            <img src="https://i.ibb.co/pvq7SMjn/Design-sem-nome-4.png" alt="Coldre Spicaliski Tactical X">
+                        </div>
+                        <div class="product-info">
+                            <h3>TACTICAL X</h3>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="product-price">
+                                <span class="price">R$ 599,90</span>
+                            </div>
+                            <button class="add-to-cart">VER DETALHES</button>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>SPICALISKI HOLSTERS</h3>
+                    <p>Fabricando excelência em equipamentos táticos desde 2015. Qualidade que protege vidas.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>LINKS RÁPIDOS</h3>
+                    <ul>
+                        <li><a href="pagina_inicial.html">Início</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="galeria.html">Galeria</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>INFORMAÇÕES</h3>
+                    <ul>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Termos de Serviço</a></li>
+                        <li><a href="#">Trocas e Devoluções</a></li>
+                        <li><a href="#">Perguntas Frequentes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>CONTATO</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Av. Tática, 123 - São Paulo/SP</li>
+                        <li><i class="fas fa-phone"></i> (11) 98765-4321</li>
+                        <li><i class="fas fa-envelope"></i> contato@spicaliski.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Spicaliski Holsters. Todos os direitos reservados.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Flutuante WhatsApp -->
+    <a href="#" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Modal de Avaliação -->
+    <div class="review-modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+            <h2>ESCREVA SUA AVALIAÇÃO</h2>
+            <form id="reviewForm">
+                <div class="form-group">
+                    <label for="reviewName">SEU NOME</label>
+                    <input type="text" id="reviewName" name="reviewName" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="reviewEmail">SEU E-MAIL</label>
+                    <input type="email" id="reviewEmail" name="reviewEmail" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>SUA AVALIAÇÃO</label>
+                    <div class="rating-input">
+                        <input type="radio" id="star5" name="rating" value="5">
+                        <label for="star5"><i class="fas fa-star"></i></label>
+                        
+                        <input type="radio" id="star4" name="rating" value="4">
+                        <label for="star4"><i class="fas fa-star"></i></label>
+                        
+                        <input type="radio" id="star3" name="rating" value="3">
+                        <label for="star3"><i class="fas fa-star"></i></label>
+                        
+                        <input type="radio" id="star2" name="rating" value="2">
+                        <label for="star2"><i class="fas fa-star"></i></label>
+                        
+                        <input type="radio" id="star1" name="rating" value="1">
+                        <label for="star1"><i class="fas fa-star"></i></label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="reviewTitle">TÍTULO DA AVALIAÇÃO</label>
+                    <input type="text" id="reviewTitle" name="reviewTitle" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="reviewText">COMENTÁRIO</label>
+                    <textarea id="reviewText" name="reviewText" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-review">ENVIAR AVALIAÇÃO</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="product.js"></script>
+</body>
+</html>

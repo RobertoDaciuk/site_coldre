@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos | Spicaliski Holsters - Coldres Táticos Premium</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loader Animado -->
+    <div class="loader">
+        <div class="loader-inner">
+            <div class="loader-circle"></div>
+            <div class="loader-circle"></div>
+            <div class="loader-circle"></div>
+            <div class="loader-circle"></div>
+            <div class="loader-circle"></div>
+        </div>
+        <p>CARREGANDO A EXPERIÊNCIA SPICALISKI</p>
+    </div>
+
+    <!-- Menu de Navegação -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="pagina_inicial.html" class="logo">SPICALISKI<span>HOLSTERS</span></a>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="pagina_inicial.html">INÍCIO</a></li>
+                <li><a href="produtos.html" class="active">PRODUTOS</a></li>
+                <li><a href="sobre.html">SOBRE</a></li>
+                <li><a href="galeria.html">GALERIA</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+                <li>
+                    <a href="#" class="icon-link"><i class="fas fa-user"></i></a>
+                    <a href="#" class="icon-link"><i class="fas fa-shopping-cart"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section Específica para Produtos -->
+    <section class="products-hero">
+        <div class="hero-image" style="background-image: url('https://i.ibb.co/gbJ7KWX7/Design-sem-nome-3.png')"></div>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span>NOSSOS</span>
+                    <span>PRODUTOS</span>
+                </h1>
+                <p class="hero-subtitle">Coldres táticos projetados para desempenho e durabilidade excepcionais</p>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+    <!-- Filtro de Produtos -->
+    <section class="product-filter">
+        <div class="container">
+            <div class="filter-container">
+                <div class="filter-group">
+                    <label for="category">CATEGORIA</label>
+                    <select id="category">
+                        <option value="all">TODOS</option>
+                        <option value="pistol">PISTOLA</option>
+                        <option value="revolver">REVÓLVER</option>
+                        <option value="tactical">TÁTICOS</option>
+                        <option value="conceal">OCULTAÇÃO</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="material">MATERIAL</label>
+                    <select id="material">
+                        <option value="all">TODOS</option>
+                        <option value="kydex">KYDEX</option>
+                        <option value="leather">COURO</option>
+                        <option value="hybrid">HÍBRIDO</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="sort">ORDENAR POR</label>
+                    <select id="sort">
+                        <option value="popular">MAIS POPULARES</option>
+                        <option value="new">MAIS NOVOS</option>
+                        <option value="price-asc">PREÇO (MENOR-MAIOR)</option>
+                        <option value="price-desc">PREÇO (MAIOR-MENOR)</option>
+                    </select>
+                </div>
+                <button class="filter-reset">LIMPAR FILTROS</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Listagem de Produtos -->
+    <section class="product-listing">
+        <div class="container">
+            <div class="products-grid">
+                <!-- Produto 1 -->
+                <a href="produto.html" class="product-card" data-category="pistol tactical" data-material="kydex" data-price="499.90">
+                    <div class="product-badge">NOVO</div>
+                    <div class="product-image">
+                        <img src="https://i.ibb.co/pvq7SMjn/Design-sem-nome-4.png" alt="Coldre Spicaliski Elite Pro">
+                        <div class="product-actions">
+                            <button class="quick-view"><i class="fas fa-eye"></i></button>
+                            <button class="add-to-wishlist"><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>ELITE PRO</h3>
+                        <p class="product-description">Coldre tático para pistolas com retenção ativa e ajuste perfeito</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(124)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">R$ 499,90</span>
+                            <span class="old-price">R$ 599,90</span>
+                        </div>
+                        <button class="add-to-cart">VER DETALHES</button>
+                    </div>
+                </a>
+
+                <!-- Produto 2 -->
+                <a href="produto.html" class="product-card" data-category="pistol conceal" data-material="hybrid" data-price="429.90">
+                    <div class="product-badge bestseller">MAIS VENDIDO</div>
+                    <div class="product-image">
+                        <img src="https://i.ibb.co/pvq7SMjn/Design-sem-nome-4.png" alt="Coldre Spicaliski Urban Carry">
+                        <div class="product-actions">
+                            <button class="quick-view"><i class="fas fa-eye"></i></button>
+                            <button class="add-to-wishlist"><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>URBAN CARRY</h3>
+                        <p class="product-description">Coldre de ocultação confortável para uso diário prolongado</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(87)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">R$ 429,90</span>
+                        </div>
+                        <button class="add-to-cart">VER DETALHES</button>
+                    </div>
+                </a>
+
+                <!-- Produto 3 -->
+                <a href="produto.html" class="product-card" data-category="revolver" data-material="leather" data-price="549.90">
+                    <div class="product-image">
+                        <img src="https://i.ibb.co/pvq7SMjn/Design-sem-nome-4.png" alt="Coldre Spicaliski Classic Revolver">
+                        <div class="product-actions">
+                            <button class="quick-view"><i class="fas fa-eye"></i></button>
+                            <button class="add-to-wishlist"><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>CLASSIC REVOLVER</h3>
+                        <p class="product-description">Coldre em couro premium para revólveres, acabamento artesanal</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(42)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">R$ 549,90</span>
+                        </div>
+                        <button class="add-to-cart">VER DETALHES</button>
+                    </div>
+                </a>
+
+                <!-- Produto 4 -->
+                <a href="produto.html" class="product-card" data-category="pistol tactical" data-material="kydex" data-price="479.90">
+                    <div class="product-image">
+                        <img src="https://i.ibb.co/pvq7SMjn/Design-sem-nome-4.png" alt="Coldre Spicaliski Stealth Ops">
+                        <div class="product-actions">
+                            <button class="quick-view"><i class="fas fa-eye"></i></button>
+                            <button class="add-to-wishlist"><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>STEALTH OPS</h3>
+                        <p class="product-description">Coldre tático de baixo perfil para operações especiais</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(56)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">R$ 479,90</span>
+                            <span class="old-price">R$ 529,90</span>
+                        </div>
+                        <button class="add-to-cart">VER DETALHES</button>
+                    </div>
+                </a>
+
+                <!-- Produto 5 -->
+                <a href="produto.html" class="product-card" data-category="pistol conceal" data-material="hybrid" data-price="389.90">
+                    <div class="product-badge">PROMOÇÃO</div>
+                    <div class="product-image">
+                        <img src="https://i.ibb.co/pvq7SMjn/Design-sem-nome-4.png" alt="Coldre Spicaliski Light Carry">
+                        <div class="product-actions">
+                            <button class="quick-view"><i class="fas fa-eye"></i></button>
+                            <button class="add-to-wishlist"><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>LIGHT CARRY</h3>
+                        <p class="product-description">Coldre híbrido ultraleve para porte discreto</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(35)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">R$ 389,90</span>
+                            <span class="old-price">R$ 459,90</span>
+                        </div>
+                        <button class="add-to-cart">VER DETALHES</button>
+                    </div>
+                </a>
+
+                <!-- Produto 6 -->
+                <a href="produto.html" class="product-card" data-category="tactical" data-material="kydex" data-price="599.90">
+                    <div class="product-badge new">LANÇAMENTO</div>
+                    <div class="product-image">
+                        <img src="https://i.ibb.co/pvq7SMjn/Design-sem-nome-4.png" alt="Coldre Spicaliski Tactical X">
+                        <div class="product-actions">
+                            <button class="quick-view"><i class="fas fa-eye"></i></button>
+                            <button class="add-to-wishlist"><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>TACTICAL X</h3>
+                        <p class="product-description">Coldre de assalto para uso profissional em missões críticas</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(28)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">R$ 599,90</span>
+                        </div>
+                        <button class="add-to-cart">VER DETALHES</button>
+                    </div>
+                </a>
+            </div>
+
+            <div class="pagination">
+                <button class="page-button active">1</button>
+                <button class="page-button">2</button>
+                <button class="page-button">3</button>
+                <button class="page-button next">PRÓXIMO <i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Destaques -->
+    <section class="featured-section">
+        <div class="container">
+            <div class="featured-grid">
+                <div class="featured-card">
+                    <div class="featured-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>GARANTIA SPICALISKI</h3>
+                    <p>Garantia vitalícia contra defeitos de fabricação em todos os nossos produtos.</p>
+                </div>
+                <div class="featured-card">
+                    <div class="featured-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>FRETE GRÁTIS</h3>
+                    <p>Frete grátis para todo o Brasil em compras acima de R$ 500,00.</p>
+                </div>
+                <div class="featured-card">
+                    <div class="featured-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>COMPRA SEGURA</h3>
+                    <p>Ambiente 100% seguro com criptografia de dados.</p>
+                </div>
+                <div class="featured-card">
+                    <div class="featured-icon">
+                        <i class="fas fa-undo"></i>
+                    </div>
+                    <h3>TROCA FÁCIL</h3>
+                    <p>Política de troca simplificada em até 7 dias.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>SPICALISKI HOLSTERS</h3>
+                    <p>Fabricando excelência em equipamentos táticos desde 2015. Qualidade que protege vidas.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>LINKS RÁPIDOS</h3>
+                    <ul>
+                        <li><a href="pagina_inicial.html">Início</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="galeria.html">Galeria</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>INFORMAÇÕES</h3>
+                    <ul>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Termos de Serviço</a></li>
+                        <li><a href="#">Trocas e Devoluções</a></li>
+                        <li><a href="#">Perguntas Frequentes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>CONTATO</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Av. Tática, 123 - São Paulo/SP</li>
+                        <li><i class="fas fa-phone"></i> (11) 98765-4321</li>
+                        <li><i class="fas fa-envelope"></i> contato@spicaliski.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Spicaliski Holsters. Todos os direitos reservados.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Flutuante WhatsApp -->
+    <a href="#" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+    <script src="products.js"></script>
+</body>
+</html>
